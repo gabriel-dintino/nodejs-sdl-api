@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-sdl-api",
+  "version": "1.0.0",
+  "description": "SDL API based on NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-dintino/nodejs-sdl-api.git"
+  },
+  "author": "Gabriel D'Intino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-dintino/nodejs-sdl-api/issues"
+  },
+  "homepage": "https://github.com/gabriel-dintino/nodejs-sdl-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
