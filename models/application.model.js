@@ -17,11 +17,10 @@ function send(options) {
 
 module.exports = {
     get: (id) => {
-        console.log(configuration.getApiCacheEndpoint());
         return new Promise((resolve, reject) => {
             let options = {
                 method: 'GET',
-                uri: `{getApiCacheEndpoint()}/${id}`,
+                uri: `${configuration.getApiCacheEndpoint()}/${id}`,
                 json: true
             };
             send(options)
